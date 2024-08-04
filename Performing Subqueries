@@ -32,7 +32,7 @@ ORDER BY COUNT(B.customer_id) DESC
 LIMIT 10
 )
 GROUP BY D.city,
-	     E.country
+	 E.country
 ORDER BY COUNT(B.customer_id) DESC
 LIMIT 10
 )
@@ -84,7 +84,7 @@ ORDER BY COUNT(B.customer_id) DESC
 LIMIT 10
 )
 GROUP BY D.city,
-	     E.country
+	 E.country
 ORDER BY COUNT(B.customer_id) DESC
 LIMIT 10
 )
