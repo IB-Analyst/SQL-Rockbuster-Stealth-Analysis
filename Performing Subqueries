@@ -47,8 +47,8 @@ LIMIT 5)  AS total_amount_paid
 -- How many of the top 5 customers you identified in step 1 are based within each country:
 
 SELECT E.country,
-                COUNT(DISTINCT B.customer_id) AS all_customer_count,
-                COUNT(DISTINCT top_5_customers.customer_id) AS top_customer_count 
+       COUNT(DISTINCT B.customer_id) AS all_customer_count,
+       COUNT(DISTINCT top_5_customers.customer_id) AS top_customer_count 
 FROM customer B 
 JOIN address C ON B.address_id = C.address_id 
 JOIN city D ON C.city_id = D.city_id 
