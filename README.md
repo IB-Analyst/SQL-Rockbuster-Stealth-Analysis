@@ -15,7 +15,8 @@ launch an online video rental service in order to stay competitive.
 ## Data
 Rockbuster Stealth relational database. 
 ERD Tables: payment, rental, customer, staff, store, address, city, country, film category, category, inventory, film, language, film_actor, actor.
-Link to visualizations on Tableau Public.
+
+[Link to visualizations](https://public.tableau.com/app/profile/iryna.berezovska/viz/RockbusterssalesMap/SalesRegions) in Tableau Public.
 
 ## Tools
 Postgre SQL 
